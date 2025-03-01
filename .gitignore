@@ -1,0 +1,7 @@
+.env
+.env.example
+node_modules/
+web-app/logs/
+web-app/assets/resume.txt
+web-app/assets/cover_letter.txt
+web-app/data/job_applications.json

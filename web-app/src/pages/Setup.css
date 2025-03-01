@@ -1,0 +1,191 @@
+.setup-page {
+  padding: 2rem 0;
+}
+
+.setup-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+  text-align: center;
+}
+
+.setup-description {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #6c757d;
+}
+
+.setup-progress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.progress-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.step-number {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #e9ecef;
+  color: #6c757d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.progress-step.active .step-number {
+  background-color: #2a7de1;
+  color: white;
+}
+
+.step-text {
+  font-size: 0.875rem;
+  color: #6c757d;
+  transition: all 0.3s ease;
+}
+
+.progress-step.active .step-text {
+  color: #2a7de1;
+  font-weight: bold;
+}
+
+.progress-line {
+  width: 100px;
+  height: 2px;
+  background-color: #e9ecef;
+  margin: 0 1rem;
+}
+
+.setup-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.setup-form-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.setup-form-container p {
+  margin-bottom: 2rem;
+  color: #6c757d;
+}
+
+.setup-form {
+  margin-top: 2rem;
+}
+
+.file-upload-container {
+  margin-bottom: 2rem;
+}
+
+.file-upload-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border: 2px dashed #ced4da;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.file-upload-label:hover {
+  border-color: #2a7de1;
+  background-color: rgba(42, 125, 225, 0.05);
+}
+
+.file-upload-icon {
+  font-size: 3rem;
+  color: #2a7de1;
+  margin-bottom: 1rem;
+}
+
+.file-upload-input {
+  display: none;
+}
+
+.form-icon {
+  margin-right: 0.5rem;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.error-message {
+  color: #dc3545;
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.resume-data-container {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.resume-data-container h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.resume-data-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.resume-data-item {
+  margin-bottom: 0.5rem;
+}
+
+.credential-section {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.credential-section h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.form-note {
+  background-color: #fff3cd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 2rem 0;
+  color: #856404;
+}
+
+@media (max-width: 768px) {
+  .progress-line {
+    width: 50px;
+  }
+  
+  .form-buttons {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .form-buttons button {
+    width: 100%;
+  }
+}
