@@ -1,6 +1,6 @@
 # JobBot - Automated Job Application Tool
 
-JobBot is a tool that automates the job application process on popular job sites like LinkedIn and Indeed. It's designed to streamline your job search by handling repetitive application tasks. JobBot is available both as a command-line interface (CLI) and a web application.
+JobBot is a tool that automates the job application process on popular job sites such as Indeed. It's designed to streamline your job search by handling repetitive application tasks. JobBot is available both as a command-line interface (CLI) and a web application.
 
 ## Features
 
